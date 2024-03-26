@@ -12,6 +12,27 @@
   * dependencies
     * @helia/interface bumped from ^3.0.1 to ^4.0.0
 
+## [0.2.0](https://github.com/saul-jb/helia/compare/utils-v0.1.0...utils-v0.2.0) (2024-03-26)
+
+
+### Features
+
+* expose .dns property on @helia/interface ([#465](https://github.com/saul-jb/helia/issues/465)) ([8c9bb7d](https://github.com/saul-jb/helia/commit/8c9bb7d224a1b786cba1fba18bffe07001a3b95d))
+
+
+### Bug Fixes
+
+* support reading identity cids ([#429](https://github.com/saul-jb/helia/issues/429)) ([98308f7](https://github.com/saul-jb/helia/commit/98308f77488b8196b2d18f78f05ecd2d37456834))
+* update project deps and docs ([77e34fc](https://github.com/saul-jb/helia/commit/77e34fc115cbfb82585fd954bcf389ecebf655bc))
+
+
+### Dependencies
+
+* update libp2p patch versions ([917a1bc](https://github.com/saul-jb/helia/commit/917a1bceb9e9b56428a15dc3377a963f06affd12))
+* The following workspace dependencies were updated
+  * dependencies
+    * @helia/interface bumped from ^4.1.0 to ^5.0.0
+
 ## [0.1.0](https://github.com/ipfs/helia/compare/utils-v0.0.2...utils-v0.1.0) (2024-03-14)
 
 

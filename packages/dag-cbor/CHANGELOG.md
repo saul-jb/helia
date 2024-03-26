@@ -15,6 +15,38 @@
   * dependencies
     * @helia/interface bumped from ^3.0.0 to ^3.0.1
 
+## [4.0.0](https://github.com/saul-jb/helia/compare/dag-cbor-v3.0.2...dag-cbor-v4.0.0) (2024-03-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* the `libp2p` property has been removed from the `Helia` interface in `@helia/interface` - it is still present on the return type of `createHelia` from the `helia` module
+* uses multiformats v13 and helia v3
+
+### Features
+
+* add @helia/http to monorepo ([#372](https://github.com/saul-jb/helia/issues/372)) ([76220cd](https://github.com/saul-jb/helia/commit/76220cd5adf45af7fa61fd0a1321de4722b744d6))
+* initial commit ([ed4c319](https://github.com/saul-jb/helia/commit/ed4c319a67c18a3dd65e18f18aa12e82080b3fdc))
+* update helia to v3 and multiformats to v13 ([#45](https://github.com/saul-jb/helia/issues/45)) ([f078447](https://github.com/saul-jb/helia/commit/f078447b6eba4c3d404d62bb930757aa1c0efe74))
+
+
+### Bug Fixes
+
+* support reading identity cids ([#429](https://github.com/saul-jb/helia/issues/429)) ([98308f7](https://github.com/saul-jb/helia/commit/98308f77488b8196b2d18f78f05ecd2d37456834))
+* update project deps and docs ([77e34fc](https://github.com/saul-jb/helia/commit/77e34fc115cbfb82585fd954bcf389ecebf655bc))
+* use blockstore interface where possible ([#417](https://github.com/saul-jb/helia/issues/417)) ([30c8981](https://github.com/saul-jb/helia/commit/30c8981934ffba72d572a7b8b2712ec93b7f4d31))
+
+
+### Dependencies
+
+* bump @helia/interface from 1.2.2 to 2.0.0 ([#30](https://github.com/saul-jb/helia/issues/30)) ([aa6ebcf](https://github.com/saul-jb/helia/commit/aa6ebcf9f58eebf842113985adee4710b009562d))
+* bump multiformats from 11.0.2 to 12.0.1 ([#8](https://github.com/saul-jb/helia/issues/8)) ([7a842d3](https://github.com/saul-jb/helia/commit/7a842d3cc4cd97e02e5a196aa512cfe36be4c388))
+* **dev:** bump aegir from 39.0.13 to 40.0.11 ([#29](https://github.com/saul-jb/helia/issues/29)) ([973bb5b](https://github.com/saul-jb/helia/commit/973bb5b6c8db0fedd70e4058f97bc339018a8193))
+* **dev:** bump aegir from 40.0.13 to 41.0.0 ([#36](https://github.com/saul-jb/helia/issues/36)) ([77e29bc](https://github.com/saul-jb/helia/commit/77e29bcdda33387b8bf15124bc316ef03b434433))
+* The following workspace dependencies were updated
+  * dependencies
+    * @helia/interface bumped from ^4.1.0 to ^5.0.0
+
 ## [3.0.2](https://github.com/ipfs/helia/compare/dag-cbor-v3.0.1...dag-cbor-v3.0.2) (2024-03-14)
 
 
